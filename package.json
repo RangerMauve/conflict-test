@@ -1,0 +1,30 @@
+{
+  "name": "conflict-test",
+  "version": "1.0.0",
+  "description": "Test of an method for synchronizing data based on a `last write wins` algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RangerMauve/conflict-test.git"
+  },
+  "keywords": [
+    "db",
+    "store",
+    "sync"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/conflict-test/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/conflict-test",
+  "dependencies": {
+    "duplex-json-stream": "^1.0.1",
+    "express": "^4.13.3",
+    "subemitter": "^1.0.0",
+    "websocket-stream": "^2.0.2"
+  }
+}
